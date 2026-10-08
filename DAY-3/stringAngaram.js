@@ -21,9 +21,11 @@ testCheck(); */
 trimCheck() */
 
 //Example 3
- function testLg() {
+function testLg() {
     let aV= "listen"
     let aN= "silent"
+     aV.toUpperCase()
+     aN.toUpperCase()
  let account1 = aV.split("")
  let account2 = aN.split("")
  let arrSort = account1.sort().join("")
